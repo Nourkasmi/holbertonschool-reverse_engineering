@@ -23,7 +23,7 @@ fi
 # Extract ELF header information (SAFE version — no xargs issues)
 magic_number=$(readelf -h "$file_name" | grep Magic | sed 's/.*: //' | tr -s ' ' | sed 's/^ //')
 class=$(readelf -h "$file_name" | grep Class | sed 's/.*: //' | tr -s ' ' | sed 's/^ //')
-byte_order=$(readelf -h "$file_name" | grep Data | sed 's/.*: //' | tr -s ' ' | sed 's/^ //')
+byte_order=$(readelf -h "$file_name" | grep Data | sed 's/.*: //' | cut -d ',' -f2 | xargs)
 entry_point_address=$(readelf -h "$file_name" | grep "Entry point address" | sed 's/.*: //' | tr -s ' ' | sed 's/^ //')
 
 # Source messages.sh
