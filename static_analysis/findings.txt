@@ -1,0 +1,48 @@
+Access Granted.
+Accessing a corrupted shared library
+cannot allocate version reference table
+check_flag
+checking for version `%s' in file %s [%lu] required by file %s [%lu]
+config_file
+conversion_rate
+Default config file path is %s
+_dl_check_all_versions
+_dl_check_map_versions
+_dl_discover_osversion
+_dl_osversion
+_dl_stack_flags
+dl-version.c
+dl-version.o
+_dl_x86_hwcap_flags
+ELF file ABI version invalid
+ELF file version does not match current one
+ELF file version ident does not match current one
+Error: Access denied!
+Error: File not found!
+Error: Invalid input!
+Error: Unknown error occurred.
+/etc/myapp/config.cfg
+exit_message
+FATAL: cannot determine kernel version
+generate_file_path
+handle_user_input
+load_config
+Loading configuration from %s
+<malloc version="1">
+(mode_flags & PRINTF_FORTIFY) != 0
+no version information available (required by %s)
+print_welcome
+Running version %s
+unsupported version %s of Verdef record
+unsupported version %s of Verneed record
+Usage: %s <input>
+User input: %s
+v1.2.3
+, version 
+version->filename == NULL || ! _dl_name_match_p (version->filename, map)
+version lookup error
+version == NULL || !(flags & DL_LOOKUP_RETURN_NEWEST)
+version `%s' not found (required by %s)
+WARNING: Unsupported flag value(s) of 0x%x in DT_FLAGS_1.
+weak version `%s' not found (required by %s)
+Welcome to the RE challenge!
